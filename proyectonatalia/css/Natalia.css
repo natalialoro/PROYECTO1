@@ -1,46 +1,48 @@
- header, footer{
-	   	background-color: gray;
-	   	color: white;
-	   	padding: 1em; 
-	   header{height: 220px; }
+  header{
+                background-image: url("imagenes/imagen.jpg");
+                color: white;
+                padding: 1em; 
+           }
 
-        
-        img{
-        	float: left;
-        	width: 230px;
-        	height: 110px; 
-
+           footer{
+                background-color: gray;
+                color: white;
+                padding: 1em;
         }
-      
+
+
+           header{height: 200px; }
+
+       
         #tituloContenido{ position: absolute; }
 
         #menuHorizontal{
-        	border: 2px orange;
-        	height: 50px; 
-        	display: flex;
-        	position: relative;
-        	top: 2em;
-        	left: 2em;
-        	width: 600px;
+                border: 2px orange;
+                height: 50px; 
+                display: flex;
+                position: relative;
+                top: 2em;
+                left: 2em;
+                width: 600px;
         }
 
 
-		li{display: inline;}
+                li{display: inline;}
 
-        nav	ul a{
-        	text-decoration: none;
-        	color: orange;
-        	font-size: 30px;
+        nav     ul a{
+                text-decoration: none;
+                color: white;
+                font-size: 50px;
 
         }
 
         #redesoc{
-        	position: relative;
-        	left: 70em; 
+                position: relative;
+                left: 70em; 
 
         }
 
         .iconoredsoc{
-        	width: 30px;
-        	height: 30px;
+                width: 30px;
+                height: 30px;
         }
