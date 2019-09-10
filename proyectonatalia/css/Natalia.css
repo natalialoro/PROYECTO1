@@ -1,0 +1,46 @@
+ header, footer{
+	   	background-color: gray;
+	   	color: white;
+	   	padding: 1em; 
+	   header{height: 220px; }
+
+        
+        img{
+        	float: left;
+        	width: 230px;
+        	height: 110px; 
+
+        }
+      
+        #tituloContenido{ position: absolute; }
+
+        #menuHorizontal{
+        	border: 2px orange;
+        	height: 50px; 
+        	display: flex;
+        	position: relative;
+        	top: 2em;
+        	left: 2em;
+        	width: 600px;
+        }
+
+
+		li{display: inline;}
+
+        nav	ul a{
+        	text-decoration: none;
+        	color: orange;
+        	font-size: 30px;
+
+        }
+
+        #redesoc{
+        	position: relative;
+        	left: 70em; 
+
+        }
+
+        .iconoredsoc{
+        	width: 30px;
+        	height: 30px;
+        }
